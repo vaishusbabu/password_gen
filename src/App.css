@@ -1,0 +1,90 @@
+.main {
+  background-color: rgb(231, 229, 227);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  padding: 50px 160px;
+  border-radius: 10px;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.logo {
+  text-align: center;
+}
+
+.subcontent {
+  justify-content: space-between;
+}
+
+/* src/CustomSlider.css */
+/* src/CustomSlider.css */
+.slider-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgb(0 44 255);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgb(0 44 255);
+  cursor: pointer;
+}
+
+
+
+.value-display {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.checkbox-container {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-label {
+  margin-left: 5px;
+}
